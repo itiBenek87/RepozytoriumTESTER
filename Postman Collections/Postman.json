@@ -1,0 +1,420 @@
+{
+	"info": {
+		"_postman_id": "aa46eb98-b168-49a9-ad6d-88e1c9653d30",
+		"name": "TRELLO",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "CreateBoard",
+			"_postman_id": "0877014e-0bc2-45e6-b3e9-afbb571b7041",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://api.trello.com/1/boards/?name=Tablica testowa &key=f3666ab73f1cf2f91861a2a263c23e29&token=ATTA974d4fb8a22a064e9c706ea1ff1c6635cb0fd7695c151910061691cae05a236c59FD8E21",
+					"protocol": "https",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"boards",
+						""
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Tablica testowa "
+						},
+						{
+							"key": "key",
+							"value": "f3666ab73f1cf2f91861a2a263c23e29"
+						},
+						{
+							"key": "token",
+							"value": "ATTA974d4fb8a22a064e9c706ea1ff1c6635cb0fd7695c151910061691cae05a236c59FD8E21"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TEST",
+			"_postman_id": "2e0695e4-a797-4215-85e9-99f6d6afa5c6",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://api.trello.com/1/lists?name=TESTdidwanielisty&idBoard=64c62e34ec8f3ae234927804&key={{API}}&token={{TOKEN}}",
+					"protocol": "https",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"lists"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "TESTdidwanielisty"
+						},
+						{
+							"key": "idBoard",
+							"value": "64c62e34ec8f3ae234927804"
+						},
+						{
+							"key": "key",
+							"value": "{{API}}"
+						},
+						{
+							"key": "token",
+							"value": "{{TOKEN}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create  Card",
+			"_postman_id": "97dbbed3-6e5b-4fc9-8b78-b74cfa9c3424",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://api.trello.com/1/cards?idList=64c634e33a041832bb723cd2&key={{API}}&token={{TOKEN}}&name=Pierwsza kartka&desc=pierwsze description",
+					"protocol": "https",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"cards"
+					],
+					"query": [
+						{
+							"key": "idList",
+							"value": "64c634e33a041832bb723cd2"
+						},
+						{
+							"key": "key",
+							"value": "{{API}}"
+						},
+						{
+							"key": "token",
+							"value": "{{TOKEN}}"
+						},
+						{
+							"key": "name",
+							"value": "Pierwsza kartka"
+						},
+						{
+							"key": "desc",
+							"value": "pierwsze description"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateChecklist",
+			"_postman_id": "e51844dd-1a03-40fc-bf6d-63fdbeeb9a3d",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api.trello.com/1/checklists?idCard=64c642c6c1e6651025b74519&key={{API}}&token={{TOKEN}}",
+					"protocol": "https",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"checklists"
+					],
+					"query": [
+						{
+							"key": "idCard",
+							"value": "64c642c6c1e6651025b74519"
+						},
+						{
+							"key": "key",
+							"value": "{{API}}"
+						},
+						{
+							"key": "token",
+							"value": "{{TOKEN}}"
+						},
+						{
+							"key": "id",
+							"value": "64c642c6c1e6651025b74519",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update checklist",
+			"_postman_id": "83a09bbd-099d-40e1-b8f4-8ec2222988a5",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "https://api.trello.com/1/checklists/64c64b6a590c3757f06d21ac?key={{API}}&token={{TOKEN}}",
+					"protocol": "https",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"checklists",
+						"64c64b6a590c3757f06d21ac"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "{{API}}"
+						},
+						{
+							"key": "token",
+							"value": "{{TOKEN}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GETALABEL",
+			"_postman_id": "ef44f402-e28f-4b85-bcea-fd0499f67336",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.trello.com/1/labels/64c64f92a3af474120a11bd6?key={{API}}&token={{TOKEN}}",
+					"protocol": "https",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"labels",
+						"64c64f92a3af474120a11bd6"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "{{API}}"
+						},
+						{
+							"key": "token",
+							"value": "{{TOKEN}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create a label",
+			"_postman_id": "4464c303-e8ac-41e4-940f-99361d520269",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://api.trello.com/1/labels?name=Pirwsza kartka&color=yellow&idBoard=64c62e34ec8f3ae234927804&key={{API}}&token={{TOKEN}}",
+					"protocol": "https",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"labels"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Pirwsza kartka"
+						},
+						{
+							"key": "color",
+							"value": "yellow"
+						},
+						{
+							"key": "idBoard",
+							"value": "64c62e34ec8f3ae234927804"
+						},
+						{
+							"key": "key",
+							"value": "{{API}}"
+						},
+						{
+							"key": "token",
+							"value": "{{TOKEN}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete label",
+			"_postman_id": "d2337852-a455-412e-af8f-03b117198598",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://api.trello.com/1/labels/64c64f92a3af474120a11bd6?key={{API}}&token={{TOKEN}}",
+					"protocol": "https",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"labels",
+						"64c64f92a3af474120a11bd6"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "{{API}}"
+						},
+						{
+							"key": "token",
+							"value": "{{TOKEN}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Organizacja",
+			"_postman_id": "a1a9fc17-99bb-4e49-85bd-f105d71d49cc",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://api.trello.com/1/organizations?displayName=Organizacja&key={{API}}&token={{TOKEN}}",
+					"protocol": "https",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"organizations"
+					],
+					"query": [
+						{
+							"key": "displayName",
+							"value": "Organizacja"
+						},
+						{
+							"key": "key",
+							"value": "{{API}}"
+						},
+						{
+							"key": "token",
+							"value": "{{TOKEN}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Updateorganizacji",
+			"_postman_id": "1f3b7957-b1bb-4356-96a0-947a00e65dc7",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "https://api.trello.com/1/organizations/64c6567ef61d2fdb441a91e7?key={{API}}&token={{TOKEN}}",
+					"protocol": "https",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"organizations",
+						"64c6567ef61d2fdb441a91e7"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "{{API}}"
+						},
+						{
+							"key": "token",
+							"value": "{{TOKEN}}"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
