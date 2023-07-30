@@ -7,7 +7,7 @@
 	"item": [
 		{
 			"name": "CreateBoard",
-			"_postman_id": "0877014e-0bc2-45e6-b3e9-afbb571b7041",
+			"id": "0877014e-0bc2-45e6-b3e9-afbb571b7041",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -47,7 +47,7 @@
 		},
 		{
 			"name": "TEST",
-			"_postman_id": "2e0695e4-a797-4215-85e9-99f6d6afa5c6",
+			"id": "2e0695e4-a797-4215-85e9-99f6d6afa5c6",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -90,7 +90,7 @@
 		},
 		{
 			"name": "Create  Card",
-			"_postman_id": "97dbbed3-6e5b-4fc9-8b78-b74cfa9c3424",
+			"id": "97dbbed3-6e5b-4fc9-8b78-b74cfa9c3424",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -137,7 +137,7 @@
 		},
 		{
 			"name": "CreateChecklist",
-			"_postman_id": "e51844dd-1a03-40fc-bf6d-63fdbeeb9a3d",
+			"id": "e51844dd-1a03-40fc-bf6d-63fdbeeb9a3d",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -188,7 +188,7 @@
 		},
 		{
 			"name": "Update checklist",
-			"_postman_id": "83a09bbd-099d-40e1-b8f4-8ec2222988a5",
+			"id": "83a09bbd-099d-40e1-b8f4-8ec2222988a5",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -224,7 +224,7 @@
 		},
 		{
 			"name": "GETALABEL",
-			"_postman_id": "ef44f402-e28f-4b85-bcea-fd0499f67336",
+			"id": "ef44f402-e28f-4b85-bcea-fd0499f67336",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -260,7 +260,7 @@
 		},
 		{
 			"name": "Create a label",
-			"_postman_id": "4464c303-e8ac-41e4-940f-99361d520269",
+			"id": "4464c303-e8ac-41e4-940f-99361d520269",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -307,7 +307,7 @@
 		},
 		{
 			"name": "Delete label",
-			"_postman_id": "d2337852-a455-412e-af8f-03b117198598",
+			"id": "d2337852-a455-412e-af8f-03b117198598",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -343,7 +343,7 @@
 		},
 		{
 			"name": "Organizacja",
-			"_postman_id": "a1a9fc17-99bb-4e49-85bd-f105d71d49cc",
+			"id": "a1a9fc17-99bb-4e49-85bd-f105d71d49cc",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -382,7 +382,7 @@
 		},
 		{
 			"name": "Updateorganizacji",
-			"_postman_id": "1f3b7957-b1bb-4356-96a0-947a00e65dc7",
+			"id": "1f3b7957-b1bb-4356-96a0-947a00e65dc7",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -413,6 +413,18 @@
 						}
 					]
 				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"id": "8ce7ffbe-0608-421b-950b-05fb9fa6b62f",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
 			},
 			"response": []
 		}
