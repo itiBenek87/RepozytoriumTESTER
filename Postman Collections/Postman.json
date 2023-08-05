@@ -381,7 +381,7 @@
 			"response": []
 		},
 		{
-			"name": "Updateorganizacji",
+			"name": "Nowa organizacja",
 			"id": "1f3b7957-b1bb-4356-96a0-947a00e65dc7",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
