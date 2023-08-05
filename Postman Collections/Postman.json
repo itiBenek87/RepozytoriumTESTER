@@ -716,8 +716,42 @@
 				"disableBodyPruning": true
 			},
 			"request": {
-				"method": "GET",
-				"header": []
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "https://api.trello.com/1/cards/64ce32fa504bf58c54d88fe7?key={{API}}&token={{TOKEN}}&title&description",
+					"protocol": "https",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"cards",
+						"64ce32fa504bf58c54d88fe7"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "{{API}}"
+						},
+						{
+							"key": "token",
+							"value": "{{TOKEN}}"
+						},
+						{
+							"key": "title",
+							"value": null,
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": null,
+							"type": "text"
+						}
+					]
+				}
 			},
 			"response": []
 		}
