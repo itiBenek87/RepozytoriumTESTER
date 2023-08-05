@@ -546,7 +546,7 @@
 			"response": []
 		},
 		{
-			"name": "New Request",
+			"name": "in progress list",
 			"id": "ec3bc849-a2e5-4049-bade-c085be7f75b5",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
