@@ -754,7 +754,7 @@
 			"response": []
 		},
 		{
-			"name": "New Request",
+			"name": "label czerwony",
 			"id": "7ebc53e7-a0e6-4ec4-86ab-6b8c55dbc7b0",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
