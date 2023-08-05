@@ -801,7 +801,7 @@
 			"response": []
 		},
 		{
-			"name": "New Request",
+			"name": "label zielony",
 			"id": "6e23dae2-e4d4-4663-8f21-4c0fc739bb61",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
