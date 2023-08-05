@@ -719,7 +719,7 @@
 				"method": "PUT",
 				"header": [],
 				"url": {
-					"raw": "https://api.trello.com/1/cards/64ce32fa504bf58c54d88fe7?key={{API}}&token={{TOKEN}}&title&description",
+					"raw": "https://api.trello.com/1/cards/64ce32fa504bf58c54d88fe7?key={{API}}&token={{TOKEN}}&title=tytuł&description=opis",
 					"protocol": "https",
 					"host": [
 						"api",
@@ -742,13 +742,11 @@
 						},
 						{
 							"key": "title",
-							"value": null,
-							"type": "text"
+							"value": "tytuł"
 						},
 						{
 							"key": "description",
-							"value": null,
-							"type": "text"
+							"value": "opis"
 						}
 					]
 				}
