@@ -855,9 +855,16 @@
 			},
 			"request": {
 				"method": "PUT",
-				"header": [],
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
 				"url": {
-					"raw": "https://api.trello.com/1/boards/{id}?key={{API}}&token={{TOKEN}}&description=description&title=title",
+					"raw": "https://api.trello.com/1/boards/64ce2d842222a55faa4b495e?key={{API}}&token={{TOKEN}}&name=tytuł&desc=opis",
 					"protocol": "https",
 					"host": [
 						"api",
@@ -867,7 +874,7 @@
 					"path": [
 						"1",
 						"boards",
-						"{id}"
+						"64ce2d842222a55faa4b495e"
 					],
 					"query": [
 						{
@@ -879,13 +886,12 @@
 							"value": "{{TOKEN}}"
 						},
 						{
-							"key": "description",
-							"value": "description"
+							"key": "name",
+							"value": "tytuł"
 						},
 						{
-							"key": "title",
-							"value": "title",
-							"type": "text"
+							"key": "desc",
+							"value": "opis"
 						}
 					]
 				}
