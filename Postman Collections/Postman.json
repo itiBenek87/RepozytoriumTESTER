@@ -864,7 +864,7 @@
 					}
 				],
 				"url": {
-					"raw": "https://api.trello.com/1/boards/64ce2d842222a55faa4b495e?key={{API}}&token={{TOKEN}}&name=tytuł&desc=opis",
+					"raw": "https://api.trello.com/1/boards/64ce32fa504bf58c54d88fe7?key={{API}}&token={{TOKEN}}&name=tytuł&desc=opis",
 					"protocol": "https",
 					"host": [
 						"api",
@@ -874,7 +874,7 @@
 					"path": [
 						"1",
 						"boards",
-						"64ce2d842222a55faa4b495e"
+						"64ce32fa504bf58c54d88fe7"
 					],
 					"query": [
 						{
