@@ -1142,7 +1142,7 @@
 			"response": []
 		},
 		{
-			"name": "New Request",
+			"name": "Kartki",
 			"id": "d2ac6215-aeee-48b3-b01f-d365525cd660",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
