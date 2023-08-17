@@ -1627,7 +1627,7 @@
 			"response": []
 		},
 		{
-			"name": "New Request",
+			"name": "Opis tablicy",
 			"id": "afd0eb5e-7d22-4070-b938-4d81111c606d",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
