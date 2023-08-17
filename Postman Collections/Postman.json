@@ -1093,7 +1093,7 @@
 			"response": []
 		},
 		{
-			"name": "New Request",
+			"name": "Kartki z zadaniami in progress",
 			"id": "95f19a62-bb5a-41a1-bdf2-e378cdca345d",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
