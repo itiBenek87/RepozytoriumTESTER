@@ -774,7 +774,7 @@
 			"response": []
 		},
 		{
-			"name": "New Request",
+			"name": "Tworzenie listy",
 			"id": "f767d7bd-d59c-4c6b-b5a1-cfb79d921192",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
