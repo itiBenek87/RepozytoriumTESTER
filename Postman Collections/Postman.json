@@ -1293,8 +1293,43 @@
 				"disableBodyPruning": true
 			},
 			"request": {
-				"method": "GET",
-				"header": []
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://api.trello.com/1/cards/64dddf1987a354941380d754/checklists?key={{API}}&token={{TOKEN}}&name=checklista&pos=top",
+					"protocol": "https",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"cards",
+						"64dddf1987a354941380d754",
+						"checklists"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "{{API}}"
+						},
+						{
+							"key": "token",
+							"value": "{{TOKEN}}"
+						},
+						{
+							"key": "name",
+							"value": "checklista",
+							"type": "text"
+						},
+						{
+							"key": "pos",
+							"value": "top",
+							"type": "text"
+						}
+					]
+				}
 			},
 			"response": []
 		}
