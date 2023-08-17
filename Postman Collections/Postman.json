@@ -695,7 +695,7 @@
 			"response": []
 		},
 		{
-			"name": "New Request",
+			"name": "Tworzenie organizacji",
 			"id": "a67b5034-c2d9-4709-b62f-034e3710e73c",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
