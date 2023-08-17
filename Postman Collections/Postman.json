@@ -946,7 +946,7 @@
 			"response": []
 		},
 		{
-			"name": "New Request",
+			"name": "Kartki z zadaniami to do",
 			"id": "cef9cbef-58e2-4766-9b03-a0976f355931",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
