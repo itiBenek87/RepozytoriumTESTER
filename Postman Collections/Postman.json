@@ -817,7 +817,7 @@
 			"response": []
 		},
 		{
-			"name": "New Request",
+			"name": "Tworzenie listy testing",
 			"id": "30e34399-c5e5-4085-a7b8-e6d3c0d22fc0",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
