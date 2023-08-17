@@ -342,45 +342,6 @@
 			"response": []
 		},
 		{
-			"name": "Organizacja",
-			"id": "a1a9fc17-99bb-4e49-85bd-f105d71d49cc",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "POST",
-				"header": [],
-				"url": {
-					"raw": "https://api.trello.com/1/organizations?displayName=Organizacja&key={{API}}&token={{TOKEN}}",
-					"protocol": "https",
-					"host": [
-						"api",
-						"trello",
-						"com"
-					],
-					"path": [
-						"1",
-						"organizations"
-					],
-					"query": [
-						{
-							"key": "displayName",
-							"value": "Organizacja"
-						},
-						{
-							"key": "key",
-							"value": "{{API}}"
-						},
-						{
-							"key": "token",
-							"value": "{{TOKEN}}"
-						}
-					]
-				}
-			},
-			"response": []
-		},
-		{
 			"name": "Nowa organizacja",
 			"id": "1f3b7957-b1bb-4356-96a0-947a00e65dc7",
 			"protocolProfileBehavior": {
