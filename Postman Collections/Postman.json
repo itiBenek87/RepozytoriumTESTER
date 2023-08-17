@@ -223,42 +223,6 @@
 			"response": []
 		},
 		{
-			"name": "GETALABEL",
-			"id": "ef44f402-e28f-4b85-bcea-fd0499f67336",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "GET",
-				"header": [],
-				"url": {
-					"raw": "https://api.trello.com/1/labels/64c64f92a3af474120a11bd6?key={{API}}&token={{TOKEN}}",
-					"protocol": "https",
-					"host": [
-						"api",
-						"trello",
-						"com"
-					],
-					"path": [
-						"1",
-						"labels",
-						"64c64f92a3af474120a11bd6"
-					],
-					"query": [
-						{
-							"key": "key",
-							"value": "{{API}}"
-						},
-						{
-							"key": "token",
-							"value": "{{TOKEN}}"
-						}
-					]
-				}
-			},
-			"response": []
-		},
-		{
 			"name": "Create a label",
 			"id": "4464c303-e8ac-41e4-940f-99361d520269",
 			"protocolProfileBehavior": {
