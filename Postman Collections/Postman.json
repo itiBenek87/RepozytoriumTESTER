@@ -342,45 +342,6 @@
 			"response": []
 		},
 		{
-			"name": "Nowa organizacja",
-			"id": "1f3b7957-b1bb-4356-96a0-947a00e65dc7",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "POST",
-				"header": [],
-				"url": {
-					"raw": "https://api.trello.com/1/organizations?displayName=Nowa organizacja&key={{API}}&token={{TOKEN}}",
-					"protocol": "https",
-					"host": [
-						"api",
-						"trello",
-						"com"
-					],
-					"path": [
-						"1",
-						"organizations"
-					],
-					"query": [
-						{
-							"key": "displayName",
-							"value": "Nowa organizacja"
-						},
-						{
-							"key": "key",
-							"value": "{{API}}"
-						},
-						{
-							"key": "token",
-							"value": "{{TOKEN}}"
-						}
-					]
-				}
-			},
-			"response": []
-		},
-		{
 			"name": "CreateBoard",
 			"id": "b248f4ea-0fb3-417e-ba1e-30c81bc931df",
 			"protocolProfileBehavior": {
