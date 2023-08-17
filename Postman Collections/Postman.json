@@ -1191,14 +1191,51 @@
 			"response": []
 		},
 		{
-			"name": "New Request",
+			"name": "Kartki z zadaniami in progress 3",
 			"id": "1f6acc14-eda0-483b-b6e2-9aaf827c4be6",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
 			"request": {
-				"method": "GET",
-				"header": []
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://api.trello.com/1/cards?idList=64ddd3b90a24c30d0b0ae496&key={{API}}&token={{TOKEN}}&name=tytuł&desc=opis",
+					"protocol": "https",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"cards"
+					],
+					"query": [
+						{
+							"key": "idList",
+							"value": "64ddd3b90a24c30d0b0ae496"
+						},
+						{
+							"key": "key",
+							"value": "{{API}}"
+						},
+						{
+							"key": "token",
+							"value": "{{TOKEN}}"
+						},
+						{
+							"key": "name",
+							"value": "tytuł",
+							"type": "text"
+						},
+						{
+							"key": "desc",
+							"value": "opis",
+							"type": "text"
+						}
+					]
+				}
 			},
 			"response": []
 		}
