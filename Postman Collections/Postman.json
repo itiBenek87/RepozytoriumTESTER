@@ -223,53 +223,6 @@
 			"response": []
 		},
 		{
-			"name": ",",
-			"id": "4464c303-e8ac-41e4-940f-99361d520269",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "POST",
-				"header": [],
-				"url": {
-					"raw": "https://api.trello.com/1/labels?name=Pirwsza kartka&color=yellow&idBoard=64c62e34ec8f3ae234927804&key={{API}}&token={{TOKEN}}",
-					"protocol": "https",
-					"host": [
-						"api",
-						"trello",
-						"com"
-					],
-					"path": [
-						"1",
-						"labels"
-					],
-					"query": [
-						{
-							"key": "name",
-							"value": "Pirwsza kartka"
-						},
-						{
-							"key": "color",
-							"value": "yellow"
-						},
-						{
-							"key": "idBoard",
-							"value": "64c62e34ec8f3ae234927804"
-						},
-						{
-							"key": "key",
-							"value": "{{API}}"
-						},
-						{
-							"key": "token",
-							"value": "{{TOKEN}}"
-						}
-					]
-				}
-			},
-			"response": []
-		},
-		{
 			"name": "Delete label",
 			"id": "d2337852-a455-412e-af8f-03b117198598",
 			"protocolProfileBehavior": {
