@@ -734,7 +734,7 @@
 			"response": []
 		},
 		{
-			"name": "tworzenie tablicy",
+			"name": "Tworzenie tablicy",
 			"id": "e67e4dc4-b021-4e5b-bc8e-bf469672e3bd",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
