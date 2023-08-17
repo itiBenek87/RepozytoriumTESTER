@@ -701,8 +701,35 @@
 				"disableBodyPruning": true
 			},
 			"request": {
-				"method": "GET",
-				"header": []
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://api.trello.com/1/organizations?displayName={Zielpol}&key={{API}}&token={{TOKEN}}",
+					"protocol": "https",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"organizations"
+					],
+					"query": [
+						{
+							"key": "displayName",
+							"value": "{Zielpol}"
+						},
+						{
+							"key": "key",
+							"value": "{{API}}"
+						},
+						{
+							"key": "token",
+							"value": "{{TOKEN}}"
+						}
+					]
+				}
 			},
 			"response": []
 		}
